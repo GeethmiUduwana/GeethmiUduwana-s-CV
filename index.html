@@ -1,0 +1,762 @@
+<!DOCTYPE html>
+<html lang="en" class="scroll-smooth">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Geethmi Sandunika Uduwana | Portfolio</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <script>
+        tailwind.config = {
+            theme: {
+                extend: {
+                    colors: {
+                        brand: {
+                            dark: '#0b0f19',
+                            cardDark: '#131c2e',
+                            accent: '#3b82f6',
+                            textMuted: '#94a3b8',
+                            borderDark: '#1e293b'
+                        }
+                    }
+                }
+            }
+        }
+    </script>
+</head>
+<body class="bg-brand-dark text-slate-200 font-sans antialiased selection:bg-brand-accent selection:text-white">
+
+    <nav class="sticky top-0 z-50 bg-brand-dark/90 backdrop-blur-md border-b border-brand-borderDark text-white">
+        <div class="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="flex items-center justify-between h-16">
+                <div class="flex-shrink-0 font-mono font-bold text-xl tracking-wider text-brand-accent">
+                    Geethmi Uduwana
+                </div>
+                <div class="hidden md:block">
+                    <div class="ml-10 flex items-baseline space-x-8">
+                        <a href="#about" class="hover:text-brand-accent transition-colors text-sm font-medium">About</a>
+                        <a href="#skills" class="hover:text-brand-accent transition-colors text-sm font-medium">Skills</a>
+                        <a href="#projects" class="hover:text-brand-accent transition-colors text-sm font-medium">Projects</a>
+                        <a href="#certifications" class="hover:text-brand-accent transition-colors text-sm font-medium">Certifications</a>
+                        <a href="#contact" class="bg-brand-accent hover:bg-blue-600 text-white transition-all px-4 py-2 rounded-lg text-sm font-medium shadow-md shadow-blue-500/10">Contact</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </nav>
+
+    <header id="about" class="relative py-24 border-b border-brand-borderDark overflow-hidden">
+        <div class="absolute inset-0 bg-[radial-gradient(circle_at_top_right,rgba(59,130,246,0.08),transparent_50%)]"></div>
+        <div class="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8 grid grid-cols-1 md:grid-cols-3 gap-12 items-center relative z-10">
+            <div class="md:col-span-2 space-y-6">
+                <span class="text-brand-accent font-mono text-sm tracking-wider uppercase bg-blue-500/10 px-3 py-1 rounded-full">Third-Year Information Technology Undergraduate</span>
+                <h1 class="text-4xl sm:text-5xl font-extrabold tracking-tight text-white">Geethmi Sandunika Uduwana</h1>
+                <p class="text-brand-textMuted text-base sm:text-lg leading-relaxed text-justify">
+                    Third-year Bachelor of Information Technology undergraduate at SLIIT with hands-on experience in Software Quality Assurance, Manual Testing, Automation Testing, Full-Stack Development, and UI/UX Design. Experienced in designing and executing test cases, preparing test documentation using Excel, defect reporting and tracking using Jira, API testing, and web application testing. Possess practical exposure to Selenium WebDriver, Playwright, Cypress, TestCafe, Postman, and Apache JMeter through academic and independent projects. Strong understanding of SDLC, STLC, Agile methodologies, and software testing best practices.
+                </p>
+                
+                <div class="flex flex-wrap gap-x-6 gap-y-3 text-xs sm:text-sm text-brand-textMuted pt-2 font-mono">
+                    <span class="flex items-center gap-2"><i class="fa-solid fa-location-dot text-brand-accent"></i> 179/13, Siyambalagoda, Polgasowita, Sri Lanka</span>
+                    <a href="mailto:geethmiuduwana@gmail.com" class="flex items-center gap-2 hover:text-brand-accent transition-colors"><i class="fa-solid fa-envelope text-brand-accent"></i> geethmiuduwana@gmail.com</a>
+                    <a href="tel:+94741810461" class="flex items-center gap-2 hover:text-brand-accent transition-colors"><i class="fa-solid fa-phone text-brand-accent"></i> +94 74 181 0461</a>
+                </div>
+
+                <div class="flex flex-wrap gap-4 pt-4">
+                    <a href="https://www.linkedin.com/in/geethmi-uduwana-68a20531b" target="_blank" class="bg-brand-cardDark hover:bg-slate-800 border border-brand-borderDark px-5 py-2.5 rounded-lg text-sm font-medium transition-all flex items-center gap-2"><i class="fa-brands fa-linkedin text-lg text-blue-400"></i> LinkedIn</a>
+                    <a href="https://github.com/GeethmiUduwana" target="_blank" class="bg-brand-cardDark hover:bg-slate-800 border border-brand-borderDark px-5 py-2.5 rounded-lg text-sm font-medium transition-all flex items-center gap-2"><i class="fa-brands fa-github text-lg text-white"></i> GitHub</a>
+                    <a href="https://github.com/GeethmiUduwana/Geethmi-s-CV/raw/main/Geethmi_Uduwana_s_CV.pdf" target="_blank" class="bg-brand-accent hover:bg-blue-600 text-white px-6 py-2.5 rounded-lg text-sm font-medium transition-all shadow-lg shadow-blue-500/20 flex items-center gap-2">
+                        Download CV <i class="fa-solid fa-download text-xs"></i>
+                    </a>
+                </div>
+            </div>
+            
+            <div class="hidden md:flex justify-center">
+                <div class="w-64 h-54 border border-brand-borderDark rounded-2xl overflow-hidden bg-brand-cardDark/50 relative shadow-2xl group">
+                    <div class="absolute -inset-0.5 bg-gradient-to-r align-middle from-blue-500 to-purple-600 rounded-2xl opacity-10 blur group-hover:opacity-20 transition duration-1000"></div>
+                    <img src="myimage.png" alt="Geethmi Uduwana" class="w-full h-full object-cover">
+                </div>
+            </div>
+        </div>
+    </header>
+
+    <section id="skills" class="py-20 bg-slate-950/40 border-b border-brand-borderDark">
+        <div class="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="text-center mb-12">
+                <h2 class="text-2xl sm:text-3xl font-extrabold tracking-tight text-white">Skills & Technologies</h2>
+                <p class="text-sm text-brand-textMuted mt-2">Tools and technologies I work with</p>
+            </div>
+
+            <div class="space-y-8">
+                <div>
+                    <h3 class="text-lg font-bold text-white mb-4 flex items-center gap-2">
+                        <i class="fa-solid fa-bug text-brand-accent"></i> QA Tools
+                    </h3>
+                    <div class="grid grid-cols-3 sm:grid-cols-4 md:grid-cols-6 lg:grid-cols-7 gap-3">
+                        <div class="bg-brand-cardDark p-3 rounded-lg border border-brand-borderDark flex flex-col items-center justify-center hover:border-brand-accent transition-all">
+                            <i class="fa-brands fa-selenium text-2xl text-green-400 mb-2"></i>
+                            <span class="text-xs text-slate-300">Selenium</span>
+                        </div>
+                        <div class="bg-brand-cardDark p-3 rounded-lg border border-brand-borderDark flex flex-col items-center justify-center hover:border-brand-accent transition-all">
+                            <i class="fa-solid fa-c text-2xl text-teal-400 mb-2"></i>
+                            <span class="text-xs text-slate-300">Cypress</span>
+                        </div>
+                        <div class="bg-brand-cardDark p-3 rounded-lg border border-brand-borderDark flex flex-col items-center justify-center hover:border-brand-accent transition-all">
+                            <i class="fa-solid fa-paper-plane text-2xl text-orange-500 mb-2"></i>
+                            <span class="text-xs text-slate-300">Postman</span>
+                        </div>
+                        <div class="bg-brand-cardDark p-3 rounded-lg border border-brand-borderDark flex flex-col items-center justify-center hover:border-brand-accent transition-all">
+                            <i class="fa-solid fa-bolt text-2xl text-yellow-400 mb-2"></i>
+                            <span class="text-xs text-slate-300">JMeter</span>
+                        </div>
+                        <div class="bg-brand-cardDark p-3 rounded-lg border border-brand-borderDark flex flex-col items-center justify-center hover:border-brand-accent transition-all">
+                            <i class="fa-brands fa-jira text-2xl text-blue-400 mb-2"></i>
+                            <span class="text-xs text-slate-300">Jira</span>
+                        </div>
+                        <div class="bg-brand-cardDark p-3 rounded-lg border border-brand-borderDark flex flex-col items-center justify-center hover:border-brand-accent transition-all">
+                            <i class="fa-solid fa-mug-hot text-2xl text-red-500 mb-2"></i>
+                            <span class="text-xs text-slate-300">TestCafe</span>
+                        </div>
+                        <div class="bg-brand-cardDark p-3 rounded-lg border border-brand-borderDark flex flex-col items-center justify-center hover:border-brand-accent transition-all">
+                            <i class="fa-solid fa-masks-theater text-2xl text-purple-400 mb-2"></i>
+                            <span class="text-xs text-slate-300">Playwright</span>
+                        </div>
+                    </div>
+                </div>
+
+                <div>
+                    <h3 class="text-lg font-bold text-white mb-4 flex items-center gap-2">
+                        <i class="fa-solid fa-laptop-code text-brand-accent"></i> Frontend Development
+                    </h3>
+                    <div class="grid grid-cols-3 sm:grid-cols-4 md:grid-cols-6 gap-3">
+                        <div class="bg-brand-cardDark p-3 rounded-lg border border-brand-borderDark flex flex-col items-center justify-center hover:border-brand-accent transition-all">
+                            <i class="fa-brands fa-html5 text-2xl text-orange-500 mb-2"></i>
+                            <span class="text-xs text-slate-300">HTML</span>
+                        </div>
+                        <div class="bg-brand-cardDark p-3 rounded-lg border border-brand-borderDark flex flex-col items-center justify-center hover:border-brand-accent transition-all">
+                            <i class="fa-brands fa-css3-alt text-2xl text-blue-500 mb-2"></i>
+                            <span class="text-xs text-slate-300">CSS</span>
+                        </div>
+                        <div class="bg-brand-cardDark p-3 rounded-lg border border-brand-borderDark flex flex-col items-center justify-center hover:border-brand-accent transition-all">
+                            <i class="fa-brands fa-js text-2xl text-yellow-400 mb-2"></i>
+                            <span class="text-xs text-slate-300">JavaScript</span>
+                        </div>
+                        <div class="bg-brand-cardDark p-3 rounded-lg border border-brand-borderDark flex flex-col items-center justify-center hover:border-brand-accent transition-all">
+                            <i class="fa-brands fa-react text-2xl text-cyan-400 mb-2"></i>
+                            <span class="text-xs text-slate-300">React</span>
+                        </div>
+                        <div class="bg-brand-cardDark p-3 rounded-lg border border-brand-borderDark flex flex-col items-center justify-center hover:border-brand-accent transition-all">
+                            <i class="fa-solid fa-wind text-2xl text-teal-400 mb-2"></i>
+                            <span class="text-xs text-slate-300">Tailwind CSS</span>
+                        </div>
+                        <div class="bg-brand-cardDark p-3 rounded-lg border border-brand-borderDark flex flex-col items-center justify-center hover:border-brand-accent transition-all">
+                            <i class="fa-brands fa-bootstrap text-2xl text-purple-500 mb-2"></i>
+                            <span class="text-xs text-slate-300">Bootstrap</span>
+                        </div>
+                    </div>
+                </div>
+
+                <div>
+                    <h3 class="text-lg font-bold text-white mb-4 flex items-center gap-2">
+                        <i class="fa-solid fa-server text-brand-accent"></i> Backend Development
+                    </h3>
+                    <div class="grid grid-cols-3 sm:grid-cols-4 md:grid-cols-6 gap-3">
+                        <div class="bg-brand-cardDark p-3 rounded-lg border border-brand-borderDark flex flex-col items-center justify-center hover:border-brand-accent transition-all">
+                            <i class="fa-brands fa-node-js text-2xl text-green-500 mb-2"></i>
+                            <span class="text-xs text-slate-300">Node.js</span>
+                        </div>
+                        <div class="bg-brand-cardDark p-3 rounded-lg border border-brand-borderDark flex flex-col items-center justify-center hover:border-brand-accent transition-all">
+                            <i class="fa-brands fa-java text-2xl text-red-500 mb-2"></i>
+                            <span class="text-xs text-slate-300">Java</span>
+                        </div>
+                        <div class="bg-brand-cardDark p-3 rounded-lg border border-brand-borderDark flex flex-col items-center justify-center hover:border-brand-accent transition-all">
+                            <i class="fa-solid fa-leaf text-2xl text-green-400 mb-2"></i>
+                            <span class="text-xs text-slate-300">Spring Boot</span>
+                        </div>
+                        <div class="bg-brand-cardDark p-3 rounded-lg border border-brand-borderDark flex flex-col items-center justify-center hover:border-brand-accent transition-all">
+                            <i class="fa-solid fa-database text-2xl text-green-400 mb-2"></i>
+                            <span class="text-xs text-slate-300">MongoDB</span>
+                        </div>
+                        <div class="bg-brand-cardDark p-3 rounded-lg border border-brand-borderDark flex flex-col items-center justify-center hover:border-brand-accent transition-all">
+                            <i class="fa-solid fa-database text-2xl text-blue-400 mb-2"></i>
+                            <span class="text-xs text-slate-300">MySQL</span>
+                        </div>
+                        <div class="bg-brand-cardDark p-3 rounded-lg border border-brand-borderDark flex flex-col items-center justify-center hover:border-brand-accent transition-all">
+                            <i class="fa-solid fa-server text-2xl text-gray-400 mb-2"></i>
+                            <span class="text-xs text-slate-300">Express.js</span>
+                        </div>
+                    </div>
+                </div>
+
+                <div>
+                    <h3 class="text-lg font-bold text-white mb-4 flex items-center gap-2">
+                        <i class="fa-solid fa-tools text-brand-accent"></i> Tools & IDEs
+                    </h3>
+                    <div class="grid grid-cols-3 sm:grid-cols-4 md:grid-cols-6 lg:grid-cols-8 gap-3">
+                        <div class="bg-brand-cardDark p-3 rounded-lg border border-brand-borderDark flex flex-col items-center justify-center hover:border-brand-accent transition-all">
+                            <i class="fa-brands fa-git-alt text-2xl text-orange-500 mb-2"></i>
+                            <span class="text-xs text-slate-300">Git</span>
+                        </div>
+                        <div class="bg-brand-cardDark p-3 rounded-lg border border-brand-borderDark flex flex-col items-center justify-center hover:border-brand-accent transition-all">
+                            <i class="fa-brands fa-github text-2xl text-white mb-2"></i>
+                            <span class="text-xs text-slate-300">GitHub</span>
+                        </div>
+                        <div class="bg-brand-cardDark p-3 rounded-lg border border-brand-borderDark flex flex-col items-center justify-center hover:border-brand-accent transition-all">
+                            <i class="fa-solid fa-code text-2xl text-blue-400 mb-2"></i>
+                            <span class="text-xs text-slate-300">VS Code</span>
+                        </div>
+                        <div class="bg-brand-cardDark p-3 rounded-lg border border-brand-borderDark flex flex-col items-center justify-center hover:border-brand-accent transition-all">
+                            <i class="fa-brands fa-figma text-2xl text-purple-400 mb-2"></i>
+                            <span class="text-xs text-slate-300">Figma</span>
+                        </div>
+                        <div class="bg-brand-cardDark p-3 rounded-lg border border-brand-borderDark flex flex-col items-center justify-center hover:border-brand-accent transition-all">
+                            <i class="fa-brands fa-jenkins text-2xl text-orange-400 mb-2"></i>
+                            <span class="text-xs text-slate-300">Jenkins</span>
+                        </div>
+                        <div class="bg-brand-cardDark p-3 rounded-lg border border-brand-borderDark flex flex-col items-center justify-center hover:border-brand-accent transition-all">
+                            <i class="fa-brands fa-docker text-2xl text-blue-500 mb-2"></i>
+                            <span class="text-xs text-slate-300">Docker</span>
+                        </div>
+                        <div class="bg-brand-cardDark p-3 rounded-lg border border-brand-borderDark flex flex-col items-center justify-center hover:border-brand-accent transition-all">
+                            <i class="fa-solid fa-cube text-2xl text-blue-400 mb-2"></i>
+                            <span class="text-xs text-slate-300">IntelliJ IDEA</span>
+                        </div>
+                        <div class="bg-brand-cardDark p-3 rounded-lg border border-brand-borderDark flex flex-col items-center justify-center hover:border-brand-accent transition-all">
+                            <i class="fa-solid fa-code text-2xl text-purple-400 mb-2"></i>
+                            <span class="text-xs text-slate-300">Eclipse</span>
+                        </div>
+                    </div>
+                </div>
+
+                <div>
+                    <h3 class="text-lg font-bold text-white mb-4 flex items-center gap-2">
+                        <i class="fa-solid fa-briefcase text-brand-accent"></i> Office & Productivity
+                    </h3>
+                    <div class="grid grid-cols-3 sm:grid-cols-4 md:grid-cols-6 gap-3">
+                        <div class="bg-brand-cardDark p-3 rounded-lg border border-brand-borderDark flex flex-col items-center justify-center hover:border-brand-accent transition-all">
+                            <i class="fa-solid fa-file-word text-2xl text-blue-500 mb-2"></i>
+                            <span class="text-xs text-slate-300">MS Word</span>
+                        </div>
+                        <div class="bg-brand-cardDark p-3 rounded-lg border border-brand-borderDark flex flex-col items-center justify-center hover:border-brand-accent transition-all">
+                            <i class="fa-solid fa-file-powerpoint text-2xl text-orange-500 mb-2"></i>
+                            <span class="text-xs text-slate-300">PowerPoint</span>
+                        </div>
+                        <div class="bg-brand-cardDark p-3 rounded-lg border border-brand-borderDark flex flex-col items-center justify-center hover:border-brand-accent transition-all">
+                            <i class="fa-solid fa-file-excel text-2xl text-green-500 mb-2"></i>
+                            <span class="text-xs text-slate-300">MS Excel</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="projects" class="py-20 bg-brand-dark border-b border-brand-borderDark">
+        <div class="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="flex flex-col md:flex-row justify-between items-start md:items-end mb-12">
+                <div>
+                    <h2 class="text-2xl sm:text-3xl font-extrabold tracking-tight text-white">Project Repositories</h2>
+                    <p class="text-sm text-brand-textMuted mt-1">Academic implementations and independent tracking systems.</p>
+                </div>
+                <div class="mt-6 md:mt-0 flex flex-wrap gap-2" id="filter-wrapper">
+                    <button onclick="applyFilter('all')" class="tab-btn active bg-brand-accent text-white px-4 py-1.5 rounded-lg text-xs font-medium transition-all">All</button>
+                    <button onclick="applyFilter('qa')" class="tab-btn bg-brand-cardDark hover:bg-slate-800 text-brand-textMuted px-4 py-1.5 rounded-lg text-xs font-medium border border-brand-borderDark transition-all">QA & Testing</button>
+                    <button onclick="applyFilter('dev')" class="tab-btn bg-brand-cardDark hover:bg-slate-800 text-brand-textMuted px-4 py-1.5 rounded-lg text-xs font-medium border border-brand-borderDark transition-all">Full-Stack Dev</button>
+                    <button onclick="applyFilter('mobile')" class="tab-btn bg-brand-cardDark hover:bg-slate-800 text-brand-textMuted px-4 py-1.5 rounded-lg text-xs font-medium border border-brand-borderDark transition-all">Mobile & UI/UX</button>
+                </div>
+            </div>
+
+            <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6" id="projects-container">
+                
+                <div class="p-card bg-brand-cardDark rounded-xl border border-brand-borderDark overflow-hidden flex flex-col transition-all hover:scale-[1.02] duration-300 shadow-xl" data-cat="qa">
+                    <div class="h-40 bg-gradient-to-br from-slate-900 to-purple-950/80 flex items-center justify-center border-b border-brand-borderDark relative p-4 overflow-hidden">
+                        <div class="absolute inset-0 bg-[radial-gradient(circle_at_center,rgba(59,130,246,0.1),transparent_70%)]"></div>
+                        <div class="flex items-center gap-4 z-10 bg-brand-dark/40 backdrop-blur-sm px-6 py-4 rounded-xl border border-brand-borderDark/60 shadow-lg">
+                            <i class="fa-brands fa-js text-4xl text-yellow-400"></i>
+                            <i class="fa-solid fa-masks-theater text-4xl text-purple-400"></i>
+                        </div>
+                    </div>
+                    <div class="p-6 flex-grow space-y-3 flex flex-col justify-between">
+                        <div class="space-y-3">
+                            <span class="text-[10px] font-mono uppercase tracking-wider text-brand-accent bg-blue-500/10 px-2 py-0.5 rounded">Individual Testing Project</span>
+                            <h3 class="text-base font-bold text-white tracking-wide">Playwright E-Commerce Test Automation</h3>
+                            <p class="text-xs text-brand-textMuted text-justify leading-relaxed">UI automation testing using Playwright and JavaScript. Automated user login, cart, and checkout workflows. Applied Page Object Model (POM) architecture and generated descriptive reports.</p>
+                        </div>
+                        <div class="flex flex-wrap gap-1.5 pt-4">
+                            <span class="text-[10px] font-mono bg-brand-dark/80 px-2.5 py-1 rounded-md text-yellow-400 border border-brand-borderDark">JavaScript</span>
+                            <span class="text-[10px] font-mono bg-brand-dark/80 px-2.5 py-1 rounded-md text-purple-400 border border-brand-borderDark">Playwright</span>
+                            <span class="text-[10px] font-mono bg-brand-dark/80 px-2.5 py-1 rounded-md text-slate-400 border border-brand-borderDark">POM</span>
+                        </div>
+                    </div>
+                    <div class="px-6 py-4 bg-slate-900/30 border-t border-brand-borderDark/60 flex justify-between items-center text-xs text-brand-textMuted font-mono">
+                        <a href="https://github.com/GeethmiUduwana/playwright-ecommerce-project.git" target="_blank" class="hover:text-white flex items-center gap-1.5 transition-colors"><i class="fa-brands fa-github text-sm"></i> GitHub</a>
+                    </div>
+                </div>
+
+                <div class="p-card bg-brand-cardDark rounded-xl border border-brand-borderDark overflow-hidden flex flex-col transition-all hover:scale-[1.02] duration-300 shadow-xl" data-cat="qa">
+                    <div class="h-40 bg-gradient-to-br from-slate-900 to-green-950/60 flex items-center justify-center border-b border-brand-borderDark relative p-4 overflow-hidden">
+                        <div class="absolute inset-0 bg-[radial-gradient(circle_at_center,rgba(59,130,246,0.1),transparent_70%)]"></div>
+                        <div class="flex items-center gap-4 z-10 bg-brand-dark/40 backdrop-blur-sm px-6 py-4 rounded-xl border border-brand-borderDark/60 shadow-lg">
+                            <i class="fa-brands fa-java text-4xl text-red-500"></i>
+                            <i class="fa-brands fa-selenium text-4xl text-green-400"></i>
+                        </div>
+                    </div>
+                    <div class="p-6 flex-grow space-y-3 flex flex-col justify-between">
+                        <div class="space-y-3">
+                            <span class="text-[10px] font-mono uppercase tracking-wider text-brand-accent bg-blue-500/10 px-2 py-0.5 rounded">Individual Testing Project</span>
+                            <h3 class="text-base font-bold text-white tracking-wide">ParaBank Online Banking Automation</h3>
+                            <p class="text-xs text-brand-textMuted text-justify leading-relaxed">Automated critical banking operational workflows using Selenium WebDriver, Java, TestNG, and Maven architectures. Covered user registration, login, account configurations, and transactions.</p>
+                        </div>
+                        <div class="flex flex-wrap gap-1.5 pt-4">
+                            <span class="text-[10px] font-mono bg-brand-dark/80 px-2.5 py-1 rounded-md text-red-400 border border-brand-borderDark">Java</span>
+                            <span class="text-[10px] font-mono bg-brand-dark/80 px-2.5 py-1 rounded-md text-green-400 border border-brand-borderDark">Selenium</span>
+                            <span class="text-[10px] font-mono bg-brand-dark/80 px-2.5 py-1 rounded-md text-slate-400 border border-brand-borderDark">TestNG</span>
+                        </div>
+                    </div>
+                    <div class="px-6 py-4 bg-slate-900/30 border-t border-brand-borderDark/60 flex justify-between items-center text-xs text-brand-textMuted font-mono">
+                        <a href="https://github.com/GeethmiUduwana/Selenium-ParabankAutomation-demo.git" target="_blank" class="hover:text-white flex items-center gap-1.5 transition-colors"><i class="fa-brands fa-github text-sm"></i> GitHub</a>
+                    </div>
+                </div>
+
+                <div class="p-card bg-brand-cardDark rounded-xl border border-brand-borderDark overflow-hidden flex flex-col transition-all hover:scale-[1.02] duration-300 shadow-xl" data-cat="qa">
+                    <div class="h-40 bg-gradient-to-br from-slate-900 to-red-950/50 flex items-center justify-center border-b border-brand-borderDark relative p-4 overflow-hidden">
+                        <div class="absolute inset-0 bg-[radial-gradient(circle_at_center,rgba(59,130,246,0.1),transparent_70%)]"></div>
+                        <div class="flex items-center gap-4 z-10 bg-brand-dark/40 backdrop-blur-sm px-6 py-4 rounded-xl border border-brand-borderDark/60 shadow-lg">
+                            <i class="fa-brands fa-js text-4xl text-yellow-400"></i>
+                            <i class="fa-solid fa-mug-hot text-4xl text-red-500"></i>
+                        </div>
+                    </div>
+                    <div class="p-6 flex-grow space-y-3 flex flex-col justify-between">
+                        <div class="space-y-3">
+                            <span class="text-[10px] font-mono uppercase tracking-wider text-brand-accent bg-blue-500/10 px-2 py-0.5 rounded">Individual Testing Project</span>
+                            <h3 class="text-base font-bold text-white tracking-wide">TestCafe E-Commerce Automation</h3>
+                            <p class="text-xs text-brand-textMuted text-justify leading-relaxed">UI automation testing implementation using TestCafe and JavaScript frameworks. Automated end-to-end user registration, secure login validation, and cart management modules with clean execution reports.</p>
+                        </div>
+                        <div class="flex flex-wrap gap-1.5 pt-4">
+                            <span class="text-[10px] font-mono bg-brand-dark/80 px-2.5 py-1 rounded-md text-yellow-400 border border-brand-borderDark">JavaScript</span>
+                            <span class="text-[10px] font-mono bg-brand-dark/80 px-2.5 py-1 rounded-md text-red-400 border border-brand-borderDark">TestCafe</span>
+                        </div>
+                    </div>
+                    <div class="px-6 py-4 bg-slate-900/30 border-t border-brand-borderDark/60 flex justify-between items-center text-xs text-brand-textMuted font-mono">
+                        <a href="https://github.com/GeethmiUduwana/testcafe-ecommerce-project.git" target="_blank" class="hover:text-white flex items-center gap-1.5 transition-colors"><i class="fa-brands fa-github text-sm"></i> GitHub</a>
+                    </div>
+                </div>
+
+                <div class="p-card bg-brand-cardDark rounded-xl border border-brand-borderDark overflow-hidden flex flex-col transition-all hover:scale-[1.02] duration-300 shadow-xl" data-cat="qa">
+                    <div class="h-40 bg-gradient-to-br from-slate-900 to-teal-950/70 flex items-center justify-center border-b border-brand-borderDark relative p-4 overflow-hidden">
+                        <div class="absolute inset-0 bg-[radial-gradient(circle_at_center,rgba(59,130,246,0.1),transparent_70%)]"></div>
+                        <div class="flex items-center gap-4 z-10 bg-brand-dark/40 backdrop-blur-sm px-6 py-4 rounded-xl border border-brand-borderDark/60 shadow-lg">
+                            <i class="fa-solid fa-c text-4xl text-teal-400"></i>
+                            <i class="fa-brands fa-html5 text-4xl text-orange-500"></i>
+                        </div>
+                    </div>
+                    <div class="p-6 flex-grow space-y-3 flex flex-col justify-between">
+                        <div class="space-y-3">
+                            <span class="text-[10px] font-mono uppercase tracking-wider text-brand-accent bg-blue-500/10 px-2 py-0.5 rounded">Individual Testing Project</span>
+                            <h3 class="text-base font-bold text-white tracking-wide">Cypress OrangeHRM Test Suite</h3>
+                            <p class="text-xs text-brand-textMuted text-justify leading-relaxed">Robust testing solution built using Cypress to validate core enterprise modules of the OrangeHRM system. Validated structural login workflows, dashboard nodes, and full employee management sequences.</p>
+                        </div>
+                        <div class="flex flex-wrap gap-1.5 pt-4">
+                            <span class="text-[10px] font-mono bg-brand-dark/80 px-2.5 py-1 rounded-md text-teal-400 border border-brand-borderDark">Cypress</span>
+                            <span class="text-[10px] font-mono bg-brand-dark/80 px-2.5 py-1 rounded-md text-slate-400 border border-brand-borderDark">E2E Testing</span>
+                        </div>
+                    </div>
+                    <div class="px-6 py-4 bg-slate-900/30 border-t border-brand-borderDark/60 flex justify-between items-center text-xs text-brand-textMuted font-mono">
+                        <a href="https://github.com/GeethmiUduwana/cypress-orangehrm-ui-automation.git" target="_blank" class="hover:text-white flex items-center gap-1.5 transition-colors"><i class="fa-brands fa-github text-sm"></i> GitHub</a>
+                    </div>
+                </div>
+
+                <div class="p-card bg-brand-cardDark rounded-xl border border-brand-borderDark overflow-hidden flex flex-col transition-all hover:scale-[1.02] duration-300 shadow-xl" data-cat="qa">
+                    <div class="h-40 bg-gradient-to-br from-slate-900 to-orange-950/60 flex items-center justify-center border-b border-brand-borderDark relative p-4 overflow-hidden">
+                        <div class="absolute inset-0 bg-[radial-gradient(circle_at_center,rgba(59,130,246,0.1),transparent_70%)]"></div>
+                        <div class="flex items-center gap-4 z-10 bg-brand-dark/40 backdrop-blur-sm px-6 py-4 rounded-xl border border-brand-borderDark/60 shadow-lg">
+                            <i class="fa-solid fa-paper-plane text-4xl text-orange-500"></i>
+                            <i class="fa-solid fa-server text-4xl text-slate-400"></i>
+                        </div>
+                    </div>
+                    <div class="p-6 flex-grow space-y-3 flex flex-col justify-between">
+                        <div class="space-y-3">
+                            <span class="text-[10px] font-mono uppercase tracking-wider text-brand-accent bg-blue-500/10 px-2 py-0.5 rounded">Individual Testing Project</span>
+                            <h3 class="text-base font-bold text-white tracking-wide">API Testing Framework (Postman/Newman)</h3>
+                            <p class="text-xs text-brand-textMuted text-justify leading-relaxed">Comprehensive API functional testing architecture validating GET, POST, PUT, and DELETE methods. Integrated automated collection testing pipelines using the Newman CLI terminal engine.</p>
+                        </div>
+                        <div class="flex flex-wrap gap-1.5 pt-4">
+                            <span class="text-[10px] font-mono bg-brand-dark/80 px-2.5 py-1 rounded-md text-orange-400 border border-brand-borderDark">Postman</span>
+                            <span class="text-[10px] font-mono bg-brand-dark/80 px-2.5 py-1 rounded-md text-orange-500 border border-brand-borderDark">Newman CLI</span>
+                        </div>
+                    </div>
+                    <div class="px-6 py-4 bg-slate-900/30 border-t border-brand-borderDark/60 flex justify-between items-center text-xs text-brand-textMuted font-mono">
+                        <a href="https://github.com/GeethmiUduwana/postman-api-testing-project.git" target="_blank" class="hover:text-white flex items-center gap-1.5 transition-colors"><i class="fa-brands fa-github text-sm"></i> GitHub</a>
+                    </div>
+                </div>
+
+                <div class="p-card bg-brand-cardDark rounded-xl border border-brand-borderDark overflow-hidden flex flex-col transition-all hover:scale-[1.02] duration-300 shadow-xl" data-cat="qa">
+                    <div class="h-40 bg-gradient-to-br from-slate-900 to-blue-900/50 flex items-center justify-center border-b border-brand-borderDark relative p-4 overflow-hidden">
+                        <div class="absolute inset-0 bg-[radial-gradient(circle_at_center,rgba(59,130,246,0.1),transparent_70%)]"></div>
+                        <div class="flex items-center gap-4 z-10 bg-brand-dark/40 backdrop-blur-sm px-6 py-4 rounded-xl border border-brand-borderDark/60 shadow-lg">
+                            <i class="fa-solid fa-file-excel text-4xl text-green-500"></i>
+                            <i class="fa-brands fa-jira text-4xl text-blue-400"></i>
+                        </div>
+                    </div>
+                    <div class="p-6 flex-grow space-y-3 flex flex-col justify-between">
+                        <div class="space-y-3">
+                            <span class="text-[10px] font-mono uppercase tracking-wider text-brand-accent bg-blue-500/10 px-2 py-0.5 rounded">Individual Testing Project</span>
+                            <h3 class="text-base font-bold text-white tracking-wide">OrangeHRM Manual Quality Assurance</h3>
+                            <p class="text-xs text-brand-textMuted text-justify leading-relaxed">Designed thorough test documentation, sheets, and manual test cases using MS Excel. Managed functional, regression, smoke, and sanity execution workflows, tracking bugs using Jira boards.</p>
+                        </div>
+                        <div class="flex flex-wrap gap-1.5 pt-4">
+                            <span class="text-[10px] font-mono bg-brand-dark/80 px-2.5 py-1 rounded-md text-green-400 border border-brand-borderDark">Excel Sheets</span>
+                            <span class="text-[10px] font-mono bg-brand-dark/80 px-2.5 py-1 rounded-md text-blue-400 border border-brand-borderDark">Jira Dash</span>
+                            <span class="text-[10px] font-mono bg-brand-dark/80 px-2.5 py-1 rounded-md text-slate-400 border border-brand-borderDark">Manual QA</span>
+                        </div>
+                    </div>
+                    <div class="px-6 py-4 bg-slate-900/30 border-t border-brand-borderDark/60 flex justify-between items-center text-xs text-brand-textMuted font-mono">
+                        <a href="https://github.com/GeethmiUduwana" target="_blank" class="hover:text-white flex items-center gap-1.5 transition-colors"><i class="fa-brands fa-github text-sm"></i> GitHub</a>
+                    </div>
+                </div>
+
+                <div class="p-card bg-brand-cardDark rounded-xl border border-brand-borderDark overflow-hidden flex flex-col transition-all hover:scale-[1.02] duration-300 shadow-xl" data-cat="qa">
+                    <div class="h-40 bg-gradient-to-br from-slate-900 to-indigo-950/70 flex items-center justify-center border-b border-brand-borderDark relative p-4 overflow-hidden">
+                        <div class="absolute inset-0 bg-[radial-gradient(circle_at_center,rgba(59,130,246,0.1),transparent_70%)]"></div>
+                        <div class="flex items-center gap-4 z-10 bg-brand-dark/40 backdrop-blur-sm px-6 py-4 rounded-xl border border-brand-borderDark/60 shadow-lg">
+                            <i class="fa-brands fa-python text-4xl text-yellow-400"></i>
+                            <i class="fa-solid fa-masks-theater text-4xl text-purple-400"></i>
+                        </div>
+                    </div>
+                    <div class="p-6 flex-grow space-y-3 flex flex-col justify-between">
+                        <div class="space-y-3">
+                            <span class="text-[10px] font-mono uppercase tracking-wider text-brand-accent bg-blue-500/10 px-2 py-0.5 rounded">Academic Testing Project</span>
+                            <h3 class="text-base font-bold text-white tracking-wide">Singlish to Sinhala Transliteration Testing</h3>
+                            <p class="text-xs text-brand-textMuted text-justify leading-relaxed">Developed a Python UI automation engine utilizing Playwright. Maintained execution sequences for over 60 structural negative test scenarios using excel-based data-driven techniques, profiling transliteration bugs.</p>
+                        </div>
+                        <div class="flex flex-wrap gap-1.5 pt-4">
+                            <span class="text-[10px] font-mono bg-brand-dark/80 px-2.5 py-1 rounded-md text-yellow-400 border border-brand-borderDark">Python</span>
+                            <span class="text-[10px] font-mono bg-brand-dark/80 px-2.5 py-1 rounded-md text-purple-400 border border-brand-borderDark">Playwright</span>
+                            <span class="text-[10px] font-mono bg-brand-dark/80 px-2.5 py-1 rounded-md text-green-400 border border-brand-borderDark">Data-Driven</span>
+                        </div>
+                    </div>
+                    <div class="px-6 py-4 bg-slate-900/30 border-t border-brand-borderDark/60 flex justify-between items-center text-xs text-brand-textMuted font-mono">
+                        <a href="https://github.com/GeethmiUduwana/IT23653740_ITPM_assignment01_option01.git" target="_blank" class="hover:text-white flex items-center gap-1.5 transition-colors"><i class="fa-brands fa-github text-sm"></i> GitHub</a>
+                    </div>
+                </div>
+
+
+                <div class="p-card bg-brand-cardDark rounded-xl border border-brand-borderDark overflow-hidden flex flex-col transition-all hover:scale-[1.02] duration-300 shadow-xl" data-cat="dev">
+                    <div class="h-40 bg-gradient-to-br from-slate-900 to-sky-950/70 flex items-center justify-center border-b border-brand-borderDark relative p-4 overflow-hidden">
+                        <div class="absolute inset-0 bg-[radial-gradient(circle_at_center,rgba(59,130,246,0.1),transparent_70%)]"></div>
+                        <div class="flex items-center gap-4 z-10 bg-brand-dark/40 backdrop-blur-sm px-6 py-4 rounded-xl border border-brand-borderDark/60 shadow-lg">
+                            <i class="fa-brands fa-php text-4xl text-indigo-400"></i>
+                            <i class="fa-solid fa-database text-4xl text-blue-400"></i>
+                        </div>
+                    </div>
+                    <div class="p-6 flex-grow space-y-3 flex flex-col justify-between">
+                        <div class="space-y-3">
+                            <span class="text-[10px] font-mono uppercase tracking-wider text-brand-accent bg-blue-500/10 px-2 py-0.5 rounded">Year 1 | Semester 2 | IWT</span>
+                            <h3 class="text-base font-bold text-white tracking-wide">MedCore — Online Doctor Booking System</h3>
+                            <p class="text-xs text-brand-textMuted text-justify leading-relaxed">Engineered the secure physician and scheduling backend module utilizing PHP architectures alongside MySQL relational databases. Crafted responsive HTML/CSS layouts with structured CRUD capabilities.</p>
+                        </div>
+                        <div class="flex flex-wrap gap-1.5 pt-4">
+                            <span class="text-[10px] font-mono bg-brand-dark/80 px-2.5 py-1 rounded-md text-indigo-400 border border-brand-borderDark">PHP</span>
+                            <span class="text-[10px] font-mono bg-brand-dark/80 px-2.5 py-1 rounded-md text-blue-400 border border-brand-borderDark">MySQL</span>
+                            <span class="text-[10px] font-mono bg-brand-dark/80 px-2.5 py-1 rounded-md text-orange-400 border border-brand-borderDark">HTML/CSS</span>
+                        </div>
+                    </div>
+                    <div class="px-6 py-4 bg-slate-900/30 border-t border-brand-borderDark/60 flex justify-between items-center text-xs text-brand-textMuted font-mono">
+                        <a href="https://github.com/GeethmiUduwana" target="_blank" class="hover:text-white flex items-center gap-1.5 transition-colors"><i class="fa-brands fa-github text-sm"></i> GitHub</a>
+                    </div>
+                </div>
+
+                <div class="p-card bg-brand-cardDark rounded-xl border border-brand-borderDark overflow-hidden flex flex-col transition-all hover:scale-[1.02] duration-300 shadow-xl" data-cat="dev">
+                    <div class="h-40 bg-gradient-to-br from-slate-900 to-red-950/60 flex items-center justify-center border-b border-brand-borderDark relative p-4 overflow-hidden">
+                        <div class="absolute inset-0 bg-[radial-gradient(circle_at_center,rgba(59,130,246,0.1),transparent_70%)]"></div>
+                        <div class="flex items-center gap-4 z-10 bg-brand-dark/40 backdrop-blur-sm px-6 py-4 rounded-xl border border-brand-borderDark/60 shadow-lg">
+                            <i class="fa-brands fa-java text-4xl text-red-500"></i>
+                            <i class="fa-brands fa-bootstrap text-4xl text-purple-500"></i>
+                        </div>
+                    </div>
+                    <div class="p-6 flex-grow space-y-3 flex flex-col justify-between">
+                        <div class="space-y-3">
+                            <span class="text-[10px] font-mono uppercase tracking-wider text-brand-accent bg-blue-500/10 px-2 py-0.5 rounded">Year 2 | Semester 1 | OOP</span>
+                            <h3 class="text-base font-bold text-white tracking-wide">Eventura — Online Event Planning System</h3>
+                            <p class="text-xs text-brand-textMuted text-justify leading-relaxed">Developed the core system vendor administration tier implementing Object-Oriented Java concepts and MySQL storage layer. Configured semantic views using Bootstrap interface components.</p>
+                        </div>
+                        <div class="flex flex-wrap gap-1.5 pt-4">
+                            <span class="text-[10px] font-mono bg-brand-dark/80 px-2.5 py-1 rounded-md text-red-400 border border-brand-borderDark">Java OOP</span>
+                            <span class="text-[10px] font-mono bg-brand-dark/80 px-2.5 py-1 rounded-md text-blue-400 border border-brand-borderDark">MySQL</span>
+                            <span class="text-[10px] font-mono bg-brand-dark/80 px-2.5 py-1 rounded-md text-purple-400 border border-brand-borderDark">Bootstrap</span>
+                        </div>
+                    </div>
+                    <div class="px-6 py-4 bg-slate-900/30 border-t border-brand-borderDark/60 flex justify-between items-center text-xs text-brand-textMuted font-mono">
+                        <a href="https://github.com/GeethmiUduwana" target="_blank" class="hover:text-white flex items-center gap-1.5 transition-colors"><i class="fa-brands fa-github text-sm"></i> GitHub</a>
+                    </div>
+                </div>
+
+                <div class="p-card bg-brand-cardDark rounded-xl border border-brand-borderDark overflow-hidden flex flex-col transition-all hover:scale-[1.02] duration-300 shadow-xl" data-cat="dev">
+                    <div class="h-40 bg-gradient-to-br from-slate-900 to-green-950/70 flex items-center justify-center border-b border-brand-borderDark relative p-4 overflow-hidden">
+                        <div class="absolute inset-0 bg-[radial-gradient(circle_at_center,rgba(59,130,246,0.1),transparent_70%)]"></div>
+                        <div class="flex items-center gap-4 z-10 bg-brand-dark/40 backdrop-blur-sm px-6 py-4 rounded-xl border border-brand-borderDark/60 shadow-lg">
+                            <i class="fa-brands fa-react text-4xl text-cyan-400"></i>
+                            <i class="fa-brands fa-node-js text-4xl text-green-500"></i>
+                        </div>
+                    </div>
+                    <div class="p-6 flex-grow space-y-3 flex flex-col justify-between">
+                        <div class="space-y-3">
+                            <span class="text-[10px] font-mono uppercase tracking-wider text-brand-accent bg-blue-500/10 px-2 py-0.5 rounded">Year 2 | Semester 2 | ITP</span>
+                            <h3 class="text-base font-bold text-white tracking-wide">EcoCycle — Bottle Recycling System</h3>
+                            <p class="text-xs text-brand-textMuted text-justify leading-relaxed">Designed and deployed an architectural plastic tracking ecosystem built completely on top of the enterprise MERN stack. Coded complex JWT token authentication, warehouse counts, and reports.</p>
+                        </div>
+                        <div class="flex flex-wrap gap-1.5 pt-4">
+                            <span class="text-[10px] font-mono bg-brand-dark/80 px-2.5 py-1 rounded-md text-cyan-400 border border-brand-borderDark">MongoDB</span>
+                            <span class="text-[10px] font-mono bg-brand-dark/80 px-2.5 py-1 rounded-md text-green-400 border border-brand-borderDark">Express/Node</span>
+                            <span class="text-[10px] font-mono bg-brand-dark/80 px-2.5 py-1 rounded-md text-sky-400 border border-brand-borderDark">React.js</span>
+                        </div>
+                    </div>
+                    <div class="px-6 py-4 bg-slate-900/30 border-t border-brand-borderDark/60 flex justify-between items-center text-xs text-brand-textMuted font-mono">
+                        <a href="https://github.com/GeethmiUduwana" target="_blank" class="hover:text-white flex items-center gap-1.5 transition-colors"><i class="fa-brands fa-github text-sm"></i> GitHub</a>
+                    </div>
+                </div>
+
+                <div class="p-card bg-brand-cardDark rounded-xl border border-brand-borderDark overflow-hidden flex flex-col transition-all hover:scale-[1.02] duration-300 shadow-xl" data-cat="dev">
+                    <div class="h-40 bg-gradient-to-br from-slate-900 to-emerald-950/80 flex items-center justify-center border-b border-brand-borderDark relative p-4 overflow-hidden">
+                        <div class="absolute inset-0 bg-[radial-gradient(circle_at_center,rgba(59,130,246,0.1),transparent_70%)]"></div>
+                        <div class="flex items-center gap-4 z-10 bg-brand-dark/40 backdrop-blur-sm px-6 py-4 rounded-xl border border-brand-borderDark/60 shadow-lg">
+                            <i class="fa-solid fa-leaf text-4xl text-green-400"></i>
+                            <i class="fa-brands fa-docker text-4xl text-blue-400"></i>
+                        </div>
+                    </div>
+                    <div class="p-6 flex-grow space-y-3 flex flex-col justify-between">
+                        <div class="space-y-3">
+                            <span class="text-[10px] font-mono uppercase tracking-wider text-brand-accent bg-blue-500/10 px-2 py-0.5 rounded">Year 3 | Semester 1 | PAF</span>
+                            <h3 class="text-base font-bold text-white tracking-wide">Smart Campus Management System</h3>
+                            <p class="text-xs text-brand-textMuted text-justify leading-relaxed">Constructed a robust administrative web engine using Spring Boot API microservices paired with dynamic React views. Utilized secure role matrices, real-time messaging alerts, MongoDB Atlas, and isolated Docker targets.</p>
+                        </div>
+                        <div class="flex flex-wrap gap-1.5 pt-4">
+                            <span class="text-[10px] font-mono bg-brand-dark/80 px-2.5 py-1 rounded-md text-green-400 border border-brand-borderDark">Spring Boot</span>
+                            <span class="text-[10px] font-mono bg-brand-dark/80 px-2.5 py-1 rounded-md text-cyan-400 border border-brand-borderDark">React.js</span>
+                            <span class="text-[10px] font-mono bg-brand-dark/80 px-2.5 py-1 rounded-md text-blue-400 border border-brand-borderDark">Docker</span>
+                        </div>
+                    </div>
+                    <div class="px-6 py-4 bg-slate-900/30 border-t border-brand-borderDark/60 flex justify-between items-center text-xs text-brand-textMuted font-mono">
+                        <a href="https://github.com/SmartCampusSystem/Smart-Campus-System.git" target="_blank" class="hover:text-white flex items-center gap-1.5 transition-colors"><i class="fa-brands fa-github text-sm"></i> GitHub</a>
+                    </div>
+                </div>
+
+                <div class="p-card bg-brand-cardDark rounded-xl border border-brand-borderDark overflow-hidden flex flex-col transition-all hover:scale-[1.02] duration-300 shadow-xl" data-cat="dev">
+                    <div class="h-40 bg-gradient-to-br from-slate-900 to-cyan-950/70 flex items-center justify-center border-b border-brand-borderDark relative p-4 overflow-hidden">
+                        <div class="absolute inset-0 bg-[radial-gradient(circle_at_center,rgba(59,130,246,0.1),transparent_70%)]"></div>
+                        <div class="flex items-center gap-4 z-10 bg-brand-dark/40 backdrop-blur-sm px-6 py-4 rounded-xl border border-brand-borderDark/60 shadow-lg">
+                            <i class="fa-solid fa-code-branch text-4xl text-teal-400"></i>
+                            <i class="fa-brands fa-jenkins text-4xl text-orange-500"></i>
+                        </div>
+                    </div>
+                    <div class="p-6 flex-grow space-y-3 flex flex-col justify-between">
+                        <div class="space-y-3">
+                            <span class="text-[10px] font-mono uppercase tracking-wider text-brand-accent bg-blue-500/10 px-2 py-0.5 rounded">Year 3 | Semester 1 | ITPM</span>
+                            <h3 class="text-base font-bold text-white tracking-wide">UniFound — Lost & Found System</h3>
+                            <p class="text-xs text-brand-textMuted text-justify leading-relaxed">Built a community asset tracking service utilizing full-stack MERN nodes featuring socket communication rooms and automated service tickets. Integrated continuous delivery deployment pipelines via Docker and Jenkins configurations.</p>
+                        </div>
+                        <div class="flex flex-wrap gap-1.5 pt-4">
+                            <span class="text-[10px] font-mono bg-brand-dark/80 px-2.5 py-1 rounded-md text-emerald-400 border border-brand-borderDark">MERN Stack</span>
+                            <span class="text-[10px] font-mono bg-brand-dark/80 px-2.5 py-1 rounded-md text-orange-400 border border-brand-borderDark">Jenkins CI</span>
+                            <span class="text-[10px] font-mono bg-brand-dark/80 px-2.5 py-1 rounded-md text-blue-400 border border-brand-borderDark">Docker</span>
+                        </div>
+                    </div>
+                    <div class="px-6 py-4 bg-slate-900/30 border-t border-brand-borderDark/60 flex justify-between items-center text-xs text-brand-textMuted font-mono">
+                        <a href="https://github.com/UniFound/UNIFOUND.git" target="_blank" class="hover:text-white flex items-center gap-1.5 transition-colors"><i class="fa-brands fa-github text-sm"></i> GitHub</a>
+                    </div>
+                </div>
+
+
+                <div class="p-card bg-brand-cardDark rounded-xl border border-brand-borderDark overflow-hidden flex flex-col transition-all hover:scale-[1.02] duration-300 shadow-xl" data-cat="mobile">
+                    <div class="h-40 bg-gradient-to-br from-slate-900 to-fuchsia-950/70 flex items-center justify-center border-b border-brand-borderDark relative p-4 overflow-hidden">
+                        <div class="absolute inset-0 bg-[radial-gradient(circle_at_center,rgba(59,130,246,0.1),transparent_70%)]"></div>
+                        <div class="flex items-center gap-4 z-10 bg-brand-dark/40 backdrop-blur-sm px-6 py-4 rounded-xl border border-brand-borderDark/60 shadow-lg">
+                            <i class="fa-brands fa-figma text-4xl text-purple-400"></i>
+                            <i class="fa-solid fa-mobile-screen text-4xl text-fuchsia-400"></i>
+                        </div>
+                    </div>
+                    <div class="p-6 flex-grow space-y-3 flex flex-col justify-between">
+                        <div class="space-y-3">
+                            <span class="text-[10px] font-mono uppercase tracking-wider text-brand-accent bg-blue-500/10 px-2 py-0.5 rounded">UI/UX Interface Design</span>
+                            <h3 class="text-base font-bold text-white tracking-wide">Doctor Appointment Mobile UI Design</h3>
+                            <p class="text-xs text-brand-textMuted text-justify leading-relaxed">Designed thorough interactive low/high-fidelity wireframes, complex user application maps, and interactive layout prototypes within Figma. Prioritized fluid mobile usability metrics.</p>
+                        </div>
+                        <div class="flex flex-wrap gap-1.5 pt-4">
+                            <span class="text-[10px] font-mono bg-brand-dark/80 px-2.5 py-1 rounded-md text-purple-400 border border-brand-borderDark">Figma Design</span>
+                            <span class="text-[10px] font-mono bg-brand-dark/80 px-2.5 py-1 rounded-md text-fuchsia-400 border border-brand-borderDark">Wireframes</span>
+                            <span class="text-[10px] font-mono bg-brand-dark/80 px-2.5 py-1 rounded-md text-slate-400 border border-brand-borderDark">UI/UX</span>
+                        </div>
+                    </div>
+                    <div class="px-6 py-4 bg-slate-900/30 border-t border-brand-borderDark/60 flex justify-between items-center text-xs text-brand-textMuted font-mono">
+                        <a href="https://github.com/GeethmiUduwana/MAD-LABEXAM_01-MediLink.git" target="_blank" class="hover:text-white flex items-center gap-1.5 transition-colors"><i class="fa-brands fa-github text-sm"></i> GitHub</a>
+                    </div>
+                </div>
+
+                <div class="p-card bg-brand-cardDark rounded-xl border border-brand-borderDark overflow-hidden flex flex-col transition-all hover:scale-[1.02] duration-300 shadow-xl" data-cat="mobile">
+                    <div class="h-40 bg-gradient-to-br from-slate-900 to-orange-950/60 flex items-center justify-center border-b border-brand-borderDark relative p-4 overflow-hidden">
+                        <div class="absolute inset-0 bg-[radial-gradient(circle_at_center,rgba(59,130,246,0.1),transparent_70%)]"></div>
+                        <div class="flex items-center gap-4 z-10 bg-brand-dark/40 backdrop-blur-sm px-6 py-4 rounded-xl border border-brand-borderDark/60 shadow-lg">
+                            <i class="fa-solid fa-code text-4xl text-orange-400"></i>
+                            <i class="fa-brands fa-android text-4xl text-green-400"></i>
+                        </div>
+                    </div>
+                    <div class="p-6 flex-grow space-y-3 flex flex-col justify-between">
+                        <div class="space-y-3">
+                            <span class="text-[10px] font-mono uppercase tracking-wider text-brand-accent bg-blue-500/10 px-2 py-0.5 rounded">Mobile Engineering</span>
+                            <h3 class="text-base font-bold text-white tracking-wide">Movie Discovery Application UI Development</h3>
+                            <p class="text-xs text-brand-textMuted text-justify leading-relaxed">Programmed native mobile display interfaces and structural routing graphs inside Android Studio environments using Kotlin. Coded highly responsive UI layouts and component states.</p>
+                        </div>
+                        <div class="flex flex-wrap gap-1.5 pt-4">
+                            <span class="text-[10px] font-mono bg-brand-dark/80 px-2.5 py-1 rounded-md text-orange-400 border border-brand-borderDark">Kotlin</span>
+                            <span class="text-[10px] font-mono bg-brand-dark/80 px-2.5 py-1 rounded-md text-green-400 border border-brand-borderDark">Android Studio</span>
+                            <span class="text-[10px] font-mono bg-brand-dark/80 px-2.5 py-1 rounded-md text-slate-400 border border-brand-borderDark">XML Layouts</span>
+                        </div>
+                    </div>
+                    <div class="px-6 py-4 bg-slate-900/30 border-t border-brand-borderDark/60 flex justify-between items-center text-xs text-brand-textMuted font-mono">
+                        <a href="https://github.com/GeethmiUduwana/MAD-LABEXAM_02-MovieApp.git" target="_blank" class="hover:text-white flex items-center gap-1.5 transition-colors"><i class="fa-brands fa-github text-sm"></i> GitHub</a>
+                    </div>
+                </div>
+
+                <div class="p-card bg-brand-cardDark rounded-xl border border-brand-borderDark overflow-hidden flex flex-col transition-all hover:scale-[1.02] duration-300 shadow-xl" data-cat="mobile">
+                    <div class="h-40 bg-gradient-to-br from-slate-900 to-violet-950/70 flex items-center justify-center border-b border-brand-borderDark relative p-4 overflow-hidden">
+                        <div class="absolute inset-0 bg-[radial-gradient(circle_at_center,rgba(59,130,246,0.1),transparent_70%)]"></div>
+                        <div class="flex items-center gap-4 z-10 bg-brand-dark/40 backdrop-blur-sm px-6 py-4 rounded-xl border border-brand-borderDark/60 shadow-lg">
+                            <i class="fa-solid fa-heart-pulse text-4xl text-purple-400"></i>
+                            <i class="fa-solid fa-mobile-button text-4xl text-indigo-400"></i>
+                        </div>
+                    </div>
+                    <div class="p-6 flex-grow space-y-3 flex flex-col justify-between">
+                        <div class="space-y-3">
+                            <span class="text-[10px] font-mono uppercase tracking-wider text-brand-accent bg-blue-500/10 px-2 py-0.5 rounded">Mobile Engineering</span>
+                            <h3 class="text-base font-bold text-white tracking-wide">Habit Tracker Mobile Application</h3>
+                            <p class="text-xs text-brand-textMuted text-justify leading-relaxed">Engineered a highly interactive wellness performance smartphone platform using Kotlin. Integrated locally persisting daily counter views, profile badges, and intuitive navigation states.</p>
+                        </div>
+                        <div class="flex flex-wrap gap-1.5 pt-4">
+                            <span class="text-[10px] font-mono bg-brand-dark/80 px-2.5 py-1 rounded-md text-purple-400 border border-brand-borderDark">Kotlin Native</span>
+                            <span class="text-[10px] font-mono bg-brand-dark/80 px-2.5 py-1 rounded-md text-blue-400 border border-brand-borderDark">Android UI</span>
+                            <span class="text-[10px] font-mono bg-brand-dark/80 px-2.5 py-1 rounded-md text-slate-400 border border-brand-borderDark">App UX</span>
+                        </div>
+                    </div>
+                    <div class="px-6 py-4 bg-slate-900/30 border-t border-brand-borderDark/60 flex justify-between items-center text-xs text-brand-textMuted font-mono">
+                        <a href="https://github.com/GeethmiUduwana/MAD_LABEXAM03_HabitTrackerApp.git" target="_blank" class="hover:text-white flex items-center gap-1.5 transition-colors"><i class="fa-brands fa-github text-sm"></i> GitHub</a>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </section>
+
+    <section id="certifications" class="py-20 bg-slate-950/40 border-t border-b border-brand-borderDark">
+        <div class="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="mb-12">
+                <h2 class="text-2xl sm:text-3xl font-extrabold tracking-tight text-white">Professional Certifications</h2>
+                <p class="text-sm text-brand-textMuted mt-2">Verified industry credentials and training paths</p>
+            </div>
+
+            <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
+                
+                <div class="bg-brand-cardDark rounded-xl border border-brand-borderDark p-6 flex flex-col items-center text-center justify-between shadow-xl relative overflow-hidden group hover:border-brand-accent transition-all duration-300">
+                    <div class="absolute inset-x-0 top-0 h-[2px] bg-gradient-to-r from-cyan-400 to-purple-600"></div>
+                    <div class="w-16 h-16 rounded-full bg-slate-900 flex items-center justify-center border border-brand-borderDark my-4">
+                        <i class="fa-solid fa-graduation-cap text-2xl text-blue-400"></i>
+                    </div>
+                    <div class="space-y-2 flex-grow mb-4">
+                        <h3 class="text-base font-bold text-white group-hover:text-brand-accent transition-colors">Higher National Diploma (HND) in IT</h3>
+                        <p class="text-xs text-brand-textMuted">Comprehensive academic specialization in system layouts and modern software engineering technologies.</p>
+                    </div>
+                    <div class="w-full flex justify-between items-center text-xs font-mono pt-4 border-t border-brand-borderDark/60">
+                        <span class="text-cyan-400">SLIIT</span>
+                        <span class="text-purple-400">2023 – 2025</span>
+                    </div>
+                </div>
+
+                <a href="https://www.linkedin.com/posts/geethmi-uduwana-68a20531b_softwarequalityassurance-sqa-softwaretesting-share-7432385500575031296-Q29S/?utm_source=share&utm_medium=member_desktop&rcm=ACoAAFECrYoB1vKPoD3Ak3NUyc6744EkGJ8eaME" target="_blank" class="bg-brand-cardDark rounded-xl border border-brand-borderDark p-6 flex flex-col items-center text-center justify-between shadow-xl relative overflow-hidden group hover:border-brand-accent transition-all duration-300">
+                    <div class="absolute inset-x-0 top-0 h-[2px] bg-gradient-to-r from-cyan-400 to-purple-600"></div>
+                    <div class="w-16 h-16 rounded-full bg-slate-900 flex items-center justify-center border border-brand-borderDark my-4">
+                        <i class="fa-solid fa-bug text-2xl text-teal-400"></i>
+                    </div>
+                    <div class="space-y-2 flex-grow mb-4">
+                        <h3 class="text-base font-bold text-white group-hover:text-brand-accent transition-colors">Introduction to Software QA</h3>
+                        <p class="text-xs text-brand-textMuted">Fundamental methodologies covering SDLC, STLC, test case orchestration, and structured bug tracking principles.</p>
+                    </div>
+                    <div class="w-full flex justify-between items-center text-xs font-mono pt-4 border-t border-brand-borderDark/60">
+                        <span class="text-cyan-400">University of Moratuwa</span>
+                        <span class="text-purple-400">2026</span>
+                    </div>
+                </a>
+
+                <a href="https://www.linkedin.com/posts/geethmi-uduwana-68a20531b_agileprojectmanagement-ict-universityofmoratuwa-activity-7362120273854173185-XrdM?utm_source=share&utm_medium=member_desktop&rcm=ACoAAFECrYoB1vKPoD3Ak3NUyc6744EkGJ8eaME" target="_blank" class="bg-brand-cardDark rounded-xl border border-brand-borderDark p-6 flex flex-col items-center text-center justify-between shadow-xl relative overflow-hidden group hover:border-brand-accent transition-all duration-300">
+                    <div class="absolute inset-x-0 top-0 h-[2px] bg-gradient-to-r from-cyan-400 to-purple-600"></div>
+                    <div class="w-16 h-16 rounded-full bg-slate-900 flex items-center justify-center border border-brand-borderDark my-4">
+                        <i class="fa-solid fa-diagram-project text-2xl text-orange-400"></i>
+                    </div>
+                    <div class="space-y-2 flex-grow mb-4">
+                        <h3 class="text-base font-bold text-white group-hover:text-brand-accent transition-colors">Agile Project Management in ICT</h3>
+                        <p class="text-xs text-brand-textMuted">Practical insights into Scrum operations, iterative sprint setups, and dynamic task tracking pipelines.</p>
+                    </div>
+                    <div class="w-full flex justify-between items-center text-xs font-mono pt-4 border-t border-brand-borderDark/60">
+                        <span class="text-cyan-400">University of Moratuwa</span>
+                        <span class="text-purple-400">2025</span>
+                    </div>
+                </a>
+
+            </div>
+        </div>
+    </section>
+
+    <section id="contact" class="py-20 bg-slate-950 text-white">
+        <div class="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="max-w-2xl mb-16">
+                <h2 class="text-3xl font-bold tracking-tight sm:text-4xl">Get In Touch</h2>
+                <div class="h-1 w-20 bg-brand-accent mt-4 rounded"></div>
+                <p class="text-slate-400 mt-4">Let's discuss upcoming projects, QA automation workflows, or internship opportunities.</p>
+            </div>
+
+            <div class="grid grid-cols-1 md:grid-cols-3 gap-8 text-center">
+                <div class="bg-slate-900/60 p-8 rounded-xl border border-slate-800 backdrop-blur-sm">
+                    <div class="w-12 h-12 bg-blue-500/10 rounded-full flex items-center justify-center text-brand-accent text-xl mx-auto mb-4"><i class="fa-solid fa-envelope"></i></div>
+                    <h3 class="text-lg font-semibold mb-1">Direct Email</h3>
+                    <a href="mailto:geethmiuduwana@gmail.com" class="text-slate-400 hover:text-brand-accent text-sm transition-colors">geethmiuduwana@gmail.com</a>
+                </div>
+                <div class="bg-slate-900/60 p-8 rounded-xl border border-slate-800 backdrop-blur-sm">
+                    <div class="w-12 h-12 bg-blue-500/10 rounded-full flex items-center justify-center text-brand-accent text-xl mx-auto mb-4"><i class="fa-solid fa-phone"></i></div>
+                    <h3 class="text-lg font-semibold mb-1">Phone Line</h3>
+                    <a href="tel:+94741810461" class="text-slate-400 hover:text-brand-accent text-sm transition-colors">+94 74 181 0461</a>
+                </div>
+                <div class="bg-slate-900/60 p-8 rounded-xl border border-slate-800 backdrop-blur-sm">
+                    <div class="w-12 h-12 bg-blue-500/10 rounded-full flex items-center justify-center text-brand-accent text-xl mx-auto mb-4"><i class="fa-brands fa-linkedin"></i></div>
+                    <h3 class="text-lg font-semibold mb-1">LinkedIn</h3>
+                    <a href="https://www.linkedin.com/in/geethmi-uduwana-68a20531b" target="_blank" class="text-slate-400 hover:text-brand-accent text-sm transition-colors">Connect with me</a>
+                </div>
+                
+            </div>
+        </div>
+    </section>
+
+    <footer class="bg-slate-950 py-8 border-t border-slate-900 text-center text-xs text-slate-500">
+        <div class="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8">
+            <p>&copy; 2026 Geethmi Sandunika Uduwana. All rights reserved.</p>
+        </div>
+    </footer>
+
+    <script>
+        function applyFilter(category) {
+            const tabs = document.querySelectorAll('#filter-wrapper button');
+            tabs.forEach(tab => {
+                tab.classList.remove('bg-brand-accent', 'text-white', 'active');
+                tab.classList.add('bg-brand-cardDark', 'text-brand-textMuted');
+            });
+            event.currentTarget.classList.remove('bg-brand-cardDark', 'text-brand-textMuted');
+            event.currentTarget.classList.add('bg-brand-accent', 'text-white', 'active');
+
+            const cards = document.querySelectorAll('.p-card');
+            cards.forEach(card => {
+                if (category === 'all' || card.getAttribute('data-cat') === category) {
+                    card.style.display = 'flex';
+                } else {
+                    card.style.display = 'none';
+                }
+            });
+        }
+    </script>
+</body>
+</html>
